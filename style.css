@@ -1,0 +1,134 @@
+@import url(https://fonts.google.com/specimen/Open+Sans);
+html.body {
+    margin: 0;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+
+}
+.container {
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+}
+
+/* ---Header--- */
+
+.menu {
+    padding-left: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 0;
+    position: relative;
+}
+.menu::after {
+    content: "";
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #828282;
+}
+.menu__item {
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 1rem;
+
+}
+.menu__item:hover .menu__link {
+    color: #070707;
+
+}
+
+.menu__link {
+    color: #828282;
+    text-decoration: none;
+    transition: all 0.2s linear;
+   
+}
+    
+/* -----maim----- */
+
+.title_2 {
+    font-size: 1.89rem;
+}
+.banner__title {
+    font-size: 48px;
+    font-weight: 600;
+    margin: 20px 0 40 0;
+}
+
+.banner__picture img {
+    object-fit: contain;
+    width: 100%;
+}
+.about {
+    padding: 100px 0;
+    text-align: center;
+}
+.about__text {
+    max-width: 480px;
+    margin: 0 auto;
+}
+.about__text p {
+    margin-bottom: 0 0 30px;
+}
+.about__text p:last-child {
+    margin-bottom: 0 0 0 0;
+}
+.sub-title {
+    font-size: inherit;
+    margin-top: 0;
+}
+.skills {
+    text-align: center;
+}
+.skills_list {
+    padding-left: 0;
+    list-style: none;
+    font-size: 0;
+}
+.skills_item {
+    
+    display: inline-block;
+    width: 25%;
+    height: 100px;
+    color
+    
+}
+.skills_title {
+    font-size: 18px;
+}
+.skills_title {
+    color: #828282;
+}
+.title__2 {
+    text-align: center;
+}
+.sub__title {
+    text-align: center;
+    
+}
+.braun_landing {
+    text-align: center;
+} 
+
+.button {
+    text-align: center;
+}
+.contacs_icon {
+    margin-top: 0;
+
+
+}
+.social_media_item {
+    padding-left: 0;
+    list-style: none;
+    display: inline-block;
+}
+.contacs_subtitle {
+    text-align: center;
+    color: #828282;
+
+}
